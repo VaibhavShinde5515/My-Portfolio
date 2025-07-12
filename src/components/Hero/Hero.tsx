@@ -16,48 +16,36 @@ export function Hero() {
           <p>Hello <img src={Hello} alt="Hello" width="20px"/>, I'm</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
-          <h1>Vinayak Singh</h1>
+          <h1>Vaibhav Shinde</h1>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
           <h3>Software Engineer</h3>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
-          <p className="small-resume">1 Year Experience</p>
+          <p className="small-resume"></p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
+        <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
           <BrowserRouter>
             <NavHashLink smooth to="#contact" className="button">Contact</NavHashLink>
           </BrowserRouter>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
+        <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
       <div className="social-media"><a
-        href="https://www.linkedin.com/in/codevinayak"
+        href="https://www.linkedin.com/in/vaibhav-shinde-453bb82b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
         target="_blank"
         rel="noreferrer"
       >
         <img src={linkedin} alt="Linkedin" />
       </a>
         <a
-          href="https://github.com/CodeVinayak/"
+          href="https://github.com/VaibhavShinde5515/"
           target="_blank"
           rel="noreferrer"
         >
           <img src={githubIcon} alt="GitHub" />
         </a>
-        <a
-          href="https://api.whatsapp.com/send/?phone=%2B919630576848&text=Hello+Vinayak+I+found+your+contact+through+portfolio+site.%0A%0A"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={whatsapp} alt="Whatsapp" />
-        </a>
-        <a
-          href="https://t.me/CodeVinayak"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={telegram} alt="telegram" />
-        </a></div>
+       
+        </div>
         </ScrollAnimation>
       </div>
       <div className="hero-image">
